@@ -15,7 +15,9 @@ class CreateNamaPaketsTable extends Migration
     {
         Schema::create('nama_pakets', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('judul');
             $table->string('jenis_paket');
+            $table->string('foto');
             $table->text('deskripsi');
             $table->timestamps();
         });

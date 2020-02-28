@@ -3,12 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\namapaket;
-use App\JenisPaket;
-use App\File;
-use Session;
 
-class namapaketController extends Controller
+class kateringController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,8 +13,7 @@ class namapaketController extends Controller
      */
     public function index()
     {
-          $namapaket = namapaket::orderBy('created_at','desc')->get();
-        return view('backend.namapaket.index', compact('namapaket'));
+        //
     }
 
     /**
@@ -28,8 +23,7 @@ class namapaketController extends Controller
      */
     public function create()
     {
-        $jenispaket = jenispaket::all();
-        return view('backend.namapaket.create', compact('jenispaket'));
+        //
     }
 
     /**
@@ -40,36 +34,7 @@ class namapaketController extends Controller
      */
     public function store(Request $request)
     {
-          $this->validate($request,[
-            'judul' => ' required|unique:artikels',
-            'deskripsi' => 'required|min:50',
-            'foto' => 'required|mimes:jpeg,jpg,png,gif|max:2048',
-
-        ]);
-        $namapaket = new NamaPaket();
-        $namapaket->judul = $request->judul;
-        $namapaket->deskripsi = $request->deskripsi;
-
-        // foto
-        if ($request->hasFile('foto')) {
-            $file = $request->file('foto');
-            $path = public_path() .
-                 '/assets/img/artikel/';
-            $filename = str_random(6) . '_'
-                . $file->getClientOriginalName();
-            $upload = $file->move(
-                $path,
-                $filename
-            );
-            $artikel->foto = $filename;
-        }
-        $artikel->save();
-        Session::flash("flash_notification", [
-            "level" => "success",
-            "message" => "Berhasil Menyimpan <b>"
-                . $artikel->judul . "</b>"
-        ]);
-        return redirect()->route('namapaket.index');
+        //
     }
 
     /**

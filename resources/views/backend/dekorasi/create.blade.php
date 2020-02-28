@@ -18,11 +18,11 @@
             <div class="col-12">
                 <div class="card">
                         <center>
-                                <div class="card-header">Tambah Nama Paket</div>
+                                <div class="card-header">Tambah Data Paket</div>
                             </center>
 
                                 <div class="card-body">
-                                <form action="{{route('namapaket.store')}}" method="post" enctype="multipart/form-data">
+                                <form action="{{route('dekorasi.store')}}" method="post" enctype="multipart/form-data">
                                     {{csrf_field()}}
                                     <div class="form-group">
                                         <label for="">Judul</label>
@@ -34,7 +34,7 @@
                                     </span>
                                 @endif
                                     </div>
-                                @endif
+
                                     </div>
                                     <div class="form-group">
                                         <label for="">Foto</label>
@@ -48,30 +48,21 @@
                                     </div>
 
 
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="">Jenis_Paket</label>
-                                        <select class="form-control{{ $errors->has('jenispaket') ? ' has-error' : '' }}" type="text"
-                                        name="id_kategori" id="s2_demo3" required>
-                                            @foreach ($jenispaket as $data)
-                                                <option value="{{$data->id}}">
-                                                {{$data->nama_paket}}</option>
-                                            @endforeach
                                         </select>
-                                        @if ($errors->has('jenispaket'))
+                                        @if ($errors->has('dekorasi'))
                                     <span class="help-block">
-                                        <strong>{{ $errors->first('jenispaket') }}</strong>
+                                        <strong>{{ $errors->first('dekorasi') }}</strong>
                                     </span>
                                 @endif
                                     </div>
                                     <div class="form-group">
                                             <label for="">Deskripsi</label>
-                                            <textarea class="form-control{{ $errors->has('konten') ? ' has-error' : '' }}" type="text"
-                                            name="konten" id="editor1" required>
+                                            <textarea class="form-control{{ $errors->has('deskripsi') ? ' has-error' : '' }}" type="text"
+                                            name="deskripsi" id="editor1" required>
                                             </textarea>
-                                           @if ($errors->has('konten'))
+                                           @if ($errors->has('deskripsi'))
                                             <span class="help-block">
-                                                <strong>{{ $errors->first('konten') }}</strong>
+                                                <strong>{{ $errors->first('deskripsi') }}</strong>
                                             </span>
                                             @endif
                                         </div>

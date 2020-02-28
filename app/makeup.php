@@ -4,9 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Session;
-
-class NamaPaket extends Model
+class makeup extends Model
 {
-    protected $fillable = ['Nama_Paket','Jenis_Paket','Deskripsi'];
+    protected $fillable = ['Judul','foto','Deskripsi'];
     public $timestamps = true;
 }

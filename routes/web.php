@@ -12,6 +12,8 @@
 */
 //ieu front end
 
+
+
 Route::get('/', function () {
     return view('layouts.index');
 });
@@ -24,9 +26,23 @@ Route::get('rsvp', function () {
 Route::get('galeri', function () {
     return view('layouts.galeri');
 });
-Route::get('packages', function () {
-    return view('layouts.packages');
+Route::get('entertainment', function () {
+    return view('layouts.entertainment');
 });
+
+Route::get('dekorasi', function () {
+    return view('layouts.dekorasi');
+});
+Route::get('rias', function () {
+    return view('layouts.rias');
+});Route::get('dokumentasi', function () {
+    return view('layouts.dokumentasi');
+});
+
+
+
+
+
 
 //ieu kuduna auth
 Auth::routes();
@@ -37,8 +53,6 @@ function () {
 Route::get('/', function () {
     return view('backend.index');
 });
-  Route::resource('jenispaket', 'JenisPaketController');
-  Route::resource('namapaket', 'namapaketController');
-  Route::resource('galeri', 'galeriController');
+  Route::resource('dekorasi', 'dekorasiController');
 });
 

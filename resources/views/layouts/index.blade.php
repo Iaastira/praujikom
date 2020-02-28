@@ -44,7 +44,10 @@
 						<li class="drop-down"><a href="#!"><i class="icon icon-caret-right"></i></a>
 							<ul class="drop-down-menu drop-down-inner">
 
-								<li><a href="packages">ORDER PACKAGES</a></li>
+                                <li><a href="entertainment">Entertainment</a></li>
+                                    <li><a href="dekorasi">Dekorasi</a></li>
+                                        <li><a href="rias">Rias Tata Busana</a></li>
+                                            <li><a href="dokumentasi">Dokumentasi</a></li>
 							</ul>
 						</li>
 					</ul>

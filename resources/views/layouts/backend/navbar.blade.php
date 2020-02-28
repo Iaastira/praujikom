@@ -14,7 +14,7 @@
 								<i data-q-action="clear-filter" class="icon dripicons-cross clear-filter"></i>
 								<ul class="list-reset filter-list" data-scroll="minimal-dark">
 									<li><a class="dropdown-item" href="{{ url('admin/jenispaket')}}">Jenis Paket</a></li>
-									
+
 								</ul>
 							</div>
 						</div>

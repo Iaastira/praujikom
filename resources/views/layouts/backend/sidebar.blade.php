@@ -36,8 +36,13 @@
 						<li class="nav-dropdown active">
 							<a class="has-arrow" href="#" aria-expanded="false"><i class="icon dripicons-meter"></i><span>Dashboard</span></a>
 							<ul class="collapse in nav-sub" aria-expanded="true">
-								<li class="active"><a href="{{ url('admin/jenispaket')}}"><span>Jenis Paket</span></a></li>
-								<li><a href="{{ route('namapaket.index')}}"><span>Nama Paket</span></a></li>
+								<li class="active"><a href="{{ url('admin/dekorasi')}}"><span>Dekorasi</span></a></li>
+                                <li><a href="{{ route('dekorasi.index')}}"><span>Paket Make Up</span></a></li>
+                                <li><a href="{{ route('dekorasi.index')}}"><span>Paket Dokumentasi</span></a></li>
+                                <li><a href="{{ route('dekorasi.index')}}"><span>Paket Katering</span></a></li>
+                                <li><a href="{{ route('dekorasi.index')}}"><span>Paket Hiburan</span></a></li>
+                                <li><a href="{{ route('dekorasi.index')}}"><span>Testimoni</span></a></li>
+
 
 							</ul>
 						</li>

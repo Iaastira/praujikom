@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Contact us</title>
+	<title>Entertainment</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
@@ -41,13 +41,17 @@
 
 						<li class="drop-down"><a href="#!"><i class="icon icon-caret-right"></i></a>
 							<ul class="drop-down-menu drop-down-inner">
-			                <li><a href="entertainment">Entertainment</a></li>
-                               <li><a href="dekorasi">Dekorasi</a></li>
+                             <li><a href="entertainment">Entertainment</a></li>
+                              <li><a href="dekorasi">Dekorasi</a></li>
                                         <li><a href="rias">Rias Tata Busana</a></li>
                                             <li><a href="dokumentasi">Dokumentasi</a></li>
-	                </li>
+							</ul>
+						</li>
 					</ul>
+
 				</li>
+
+
 				<li><a href="galeri">GALLERY</a></li>
 				<li><a href="rsvp">CONTACT US</a></li>
 			</ul><!-- main-menu -->
@@ -61,8 +65,8 @@
 			<div class="display-table-cell">
 				<div class="slider-content">
 
-					<h3 class="pre-title">SuZanKay Page</h3>
-					<h1 class="title">Be Our Guest</h1>
+					<h3 class="pre-title">Paket </h3>
+					<h1 class="title">Rias Tata Busana</h1>
 
 				</div><!-- slider-content-->
 			</div><!--display-table-cell-->
@@ -78,56 +82,6 @@
 					<div class="margin-bottom display-table">
 						<div class="display-table-cell">
 
-							<div class="heading">
-								<h2 class="title">Contact Us</h2>
-								<i class="icon icon-star"></i>
-							</div>
-
-							<p>On the 1 January 2020</p>
-							<p>Join us as we celebrate life and love.</p>
-							<h3><a href="tel:081321782321" class="phone">081321782321</a></h3>
-							<h3><a href="tel:0895703065629" class="phone">0895703065629</a></h3>
-							<h5><a href="nekrosp8@gmail.com" class="email">nekrosp8@gmail.com</a></h5>
-							<p>Jl.Kopo Sayati Lama</p>
-							<li><a href="#"><i class="icon icon-instagram">@SuZanKay_Wedding</i></a></li>
-
-						</div><!-- display-table-cell -->
-					</div><!-- margin-bottom -->
-				</div><!-- col-sm-6 -->
-
-
-
-							</div><!-- row -->
-						</form>
-					</div><!-- contact-form -->
-				</div><!-- col-sm-6 -->
-
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- section -->
-
-	<div class="map-area">
-		<div id="map" style="height:100%;"></div>
-	</div><!-- map-area -->
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-oEyU88bRR6xcbV1gI_Cahc8ugKC_JPE&callback=initMap"></script>
-
-
-	<footer>
-		<div class="container center-text">
-
-			<div class="logo-wrapper">
-				<a class="logo" href="#"><img src="frontend/assets/images/logo-black.png" alt="Logo Image"></a>
-				<i class="icon icon-star"></i>
-			</div>
-
-			<div class="newsletter">
-				<h4 class="title">Kirimkan pesananmu lewat Email/Whatsapp</h4>
-				<p>Join our mailing list to receive news and announcements</p>
-				<div class="email-area">
-
-				</div><!-- email-area -->
-			</div><!-- newsletter -->
-
 
 			<ul class="social-icons">
 				<li><a href="#"><i class="icon icon-heart"></i></a></li>
@@ -135,7 +89,19 @@
 				<li><a href="#"><i class="icon icon-instagram"></i></a></li>
 				<li><a href="#"><i class="icon icon-pinterest"></i></a></li>
 				<li><a href="#"><i class="icon icon-tripadvisor"></i></a></li>
-			</ul>
+            </ul>
+            <section class="section galery-area center-text">
+                <div class="container">
+
+
+
+
+                            </div><!-- image-gallery -->
+
+                        </div><!-- col-sm-10 -->
+                    </div><!-- row -->
+                </div><!-- container -->
+            </section><!-- section -->
 
 			<ul class="footer-links">
 				<li><a href="/">HOME</a></li>
